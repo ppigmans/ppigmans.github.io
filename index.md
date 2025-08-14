@@ -181,8 +181,11 @@
                 </div>
                 <div class="bg-[#003554]/50 rounded-lg shadow-lg p-6 md:p-8">
                      <h3 class="text-xl font-semibold text-center text-white mb-4">Approximate Development Timeline</h3>
-                    <div class="chart-container h-[500px] md:h-[450px] max-w-4xl">
+                    <div class="chart-container relative h-[500px] md:h-[450px] max-w-4xl">
                         <canvas id="roadmapChart"></canvas>
+                        <div class="absolute top-[21%] left-4 md:left-1/4 bg-[#00A6FB] text-white text-xs font-bold px-2 py-1 rounded-md shadow-lg">
+                            ACTIVE PHASE 2: Last update 15-08-2025
+                        </div>
                     </div>
                 </div>
             </section>
@@ -337,12 +340,12 @@
                 datasets: [{
                     label: 'Duration (Weeks)',
                     data: [
-                        [0, 4],
-                        [4, 7],
-                        [7, 15],
-                        [15, 27],
-                        [27, 52],
-                        [52, 78]
+                        [0, 12],
+                        [15, 16],
+                        [16, 23],
+                        [23, 35],
+                        [35, 60],
+                        [60, 86]
                     ],
                     backgroundColor: brilliantBlues,
                 }]
