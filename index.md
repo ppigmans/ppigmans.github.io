@@ -208,6 +208,9 @@
                      <h3 class="text-xl font-semibold text-center text-white mb-4">Approximate Development Timeline</h3>
                     <div class="chart-container relative h-[500px] md:h-[450px] max-w-4xl">
                         <canvas id="roadmapChart"></canvas>
+                        <div class="absolute top-[30%] left-4 md:left-1/4 bg-[#00A6FB] text-white text-xs font-bold px-2 py-1 rounded-md shadow-lg">
+                            Last update 15-08-2025
+                        </div>
                     </div>
                 </div>
             </section>
@@ -218,16 +221,16 @@
                     <p class="mt-2 max-w-3xl mx-auto text-gray-300">Access project assets, view progress, and connect with the community through these external resources.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <a href="# target="_blank" class="bg-[#003554]/50 rounded-lg shadow-lg p-6 text-center hover:bg-[#0582CA] transition-colors duration-300">
+                    <a href="https://ppigmans.com" target="_blank" class="bg-[#003554]/50 rounded-lg shadow-lg p-6 text-center hover:bg-[#0582CA] transition-colors duration-300">
                         <h3 class="text-xl font-semibold text-white">Main Domain</h3>
                         <p class="text-sm text-gray-300 mt-2">Visit the official project homepage hosted on the Neural Cloud.</p>
                     </a>
-                    <a href="#" class="bg-[#003554]/50 rounded-lg shadow-lg p-6 text-center hover:bg-[#0582CA] transition-colors duration-300">
+                    <a href="https://ppigmans.com/stack" target="_blank" class="bg-[#003554]/50 rounded-lg shadow-lg p-6 text-center hover:bg-[#0582CA] transition-colors duration-300">
                         <h3 class="text-xl font-semibold text-white">STACK Storage</h3>
                         <p class="text-sm text-gray-300 mt-2">Browse the public file archive and project assets on Transip STACK.</p>
                     </a>
-                    <a href="https://youtu.be/aQ5NnjpzXOY" class="bg-[#003554]/50 rounded-lg shadow-lg p-6 text-center hover:bg-[#0582CA] transition-colors duration-300">
-                        <h3 class="text-xl font-semibold text-white">Video archive</h3>
+                    <a href="https://ppigmans.com/videos" target="_blank" class="bg-[#003554]/50 rounded-lg shadow-lg p-6 text-center hover:bg-[#0582CA] transition-colors duration-300">
+                        <h3 class="text-xl font-semibold text-white">Video Progress</h3>
                         <p class="text-sm text-gray-300 mt-2">Watch development logs and demonstration videos.</p>
                     </a>
                 </div>
@@ -382,11 +385,11 @@
                 datasets: [{
                     label: 'Duration (Weeks)',
                     data: [
-                        [0, 4],    // 4 weeks
-                        [4, 6],    // 2 weeks
-                        [6, 18],   // 12 weeks
-                        [18, 43],  // 25 weeks
-                        [43, 104]  // Ongoing (represented as 1 year)
+                        [0, 4],
+                        [4, 6],
+                        [6, 18],
+                        [18, 43],
+                        [43, 104]
                     ],
                     backgroundColor: brilliantBlues,
                 }]
